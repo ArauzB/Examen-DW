@@ -1,0 +1,38 @@
+/* Navbar */
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  /* Navbar lista */
+  .navbar-list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Ítems de la lista del Navbar */
+  .navbar-item {
+    margin-right: 20px;
+  }
+  
+  /* Enlaces en el Navbar */
+  .navbar-item a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  /* Estilo al pasar el ratón sobre los enlaces */
+  .navbar-item a:hover {
+    color: #ffcc00;
+  }
+  
+  /* Estilo para el enlace activo */
+  .navbar-item a.active {
+    color: #ffcc00;
+  }
+  
